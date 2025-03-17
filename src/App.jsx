@@ -22,12 +22,6 @@ export default function App() {
       <AboutMe />
       <Prosjekter />
       <Contact />
-      
-      <div>
-      <footer>
-        <p>footer</p>
-      </footer>
-      </div>
     </div>
     </>
   );
