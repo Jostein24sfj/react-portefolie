@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
+  box-sizing: border-box;  
 }
 
 #root {
@@ -16,6 +16,7 @@ body {
   min-height: 100vh;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
+  /* min-height: 100vh; */
   /* background-color: blue; */
 }
 
@@ -27,7 +28,6 @@ header {
   padding: 34px;
   align-items: center;
   font-size: 24px;
-  /* text-transform: uppercase; */
 }
 
 .logoBtn {
@@ -36,19 +36,20 @@ header {
   border: none;
   cursor: pointer;
   font-size: 28px;
+  /* text-transform: uppercase; */
 }
 
-.logoTheme {
+/* .logoTheme {
   display: flex;
   gap: 12px;
-}
+} */
 
 .headerBtn {
   font-family: "Figtree", sans-serif;
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
-  /* padding: 8px; */
+  padding: 8px;
   border-radius: 8px;
   border: none;
   background-color: #0e0e0e;

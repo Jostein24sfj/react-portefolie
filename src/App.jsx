@@ -7,6 +7,7 @@ import DarkMode from "./DarkMode/DarkMode";
 export default function App() {
   return (
     <>
+    <div>
       <header>
         <div className="logoTheme">
         <button className="logoBtn">portofolie</button>
@@ -21,16 +22,16 @@ export default function App() {
       <AboutMe />
       <Prosjekter />
       <Contact />
-
+      
+      <div>
       <footer>
         <p>footer</p>
       </footer>
+      </div>
+    </div>
     </>
   );
 }
 
-function myFunction() {
-  let element = document.body;
-  element.classList.toggle("lightning");
-}
+
 

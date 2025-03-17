@@ -2,21 +2,24 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /* min-height: 100vh; */
+
 }
  
 .profilePic {
-  /* display: flex; */
   object-fit: cover;
-  border-radius: 50%;
+  border-radius: 12px;
   width: 164px;
-  height: 164px;
+  height: 200px;
 }
 
 main { 
   /* display: grid; */
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  /* min-height: 100vh; */
   padding: 112px;
-  /* gap: 100px; */
+  gap: 100px;
 }
