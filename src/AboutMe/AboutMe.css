@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.profilePic {
+  /* display: flex; */
+  object-fit: cover;
+  border-radius: 50%;
+  width: 164px;
+  height: 164px;
+}
+
+main {
+  /* display: grid; */
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  padding: 112px;
+  /* gap: 100px; */
+}
