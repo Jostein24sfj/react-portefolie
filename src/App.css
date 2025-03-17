@@ -14,15 +14,9 @@
 body {
   font-family: "Figtree", sans-serif;
   min-height: 100vh;
-  color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
   /* background-color: blue; */
-}
-
-.lightning {
-  background-color: rgb(211, 211, 211);
-  color: #242424;
 }
 
 header {
@@ -42,6 +36,11 @@ header {
   border: none;
   cursor: pointer;
   font-size: 28px;
+}
+
+.logoTheme {
+  display: flex;
+  gap: 12px;
 }
 
 .headerBtn {
