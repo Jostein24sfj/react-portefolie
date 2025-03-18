@@ -19,9 +19,11 @@ export default function App() {
             <button className="headerBtn">Kontakt</button>
           </div>
         </header>
-        <AboutMe />
-        <Prosjekter />
-        <Contact />
+        <main>
+          <AboutMe />
+          <Prosjekter />
+          <Contact />
+        </main>
       </div>
     </>
   );
