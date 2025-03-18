@@ -9,7 +9,7 @@ export default function AboutMe() {
           <h1>Jostein Westrum</h1>
           <p className="aboutMeText">
             Mitt navn er Jostein Westrum. Dette er forsøk nr 2 på å lage en
-            portofolie. Denne gangen lages det i React.
+            portefolie. Denne gangen lages det i React.
           </p>
         </div>
       </section>

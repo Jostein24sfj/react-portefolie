@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+.contactSection {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 12px;
+}
+  
+.contactSection input {
+    gap: 12px;
+}
+
+h2 {
+    font-size: 28px;
+    padding: 24px 0;
+}
+
+.inputSections input {
+    display: flex;
+    background-color: rgb(170, 170, 170);
+    border-radius: 6px;
+    width: 360px;
+    height: 32px;
+    /* text-align: center; */
+}
+
+.inputMessage {
+    height: 164px;
+    width: 360px;
+    background-color: rgb(170, 170, 170);
+    border-radius: 6px;
+}

@@ -6,7 +6,7 @@ export default function Header () {
         <>
         <header>
           <div className="logoTheme">
-            <button className="logoBtn">portofolie</button>
+            <button className="logoBtn">portefolie</button>
           </div>
           <div className="headerButtons">
             <button className="headerBtn">Om meg</button>

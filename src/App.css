@@ -28,24 +28,7 @@ main {
   padding: 64px 160px;
 }
 
-header {
-  background-color: #151515;
-  height: 84px;
-  display: flex;
-  justify-content: space-between;
-  padding: 34px;
-  align-items: center;
-  font-size: 24px;
-}
 
-.logoBtn {
-  background-color: #151515;
-  color: white;
-  border: none;
-  cursor: pointer;
-  font-size: 28px;
-  /* text-transform: uppercase; */
-}
 
 /* .logoTheme {
   display: flex;
