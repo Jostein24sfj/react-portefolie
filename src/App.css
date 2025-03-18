@@ -13,12 +13,8 @@
 
 body {
   font-family: "Figtree", sans-serif;
-  min-height: 100vh;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-
-  /* min-height: 100vh; */
-  /* background-color: blue; */
 }
 
 main {
@@ -50,7 +46,6 @@ main {
 .headerButtons {
   display: flex;
   gap: 26px;
-  /* background-color: aqua; */
 }
 
 @media screen and (max-width: 1080px) {
