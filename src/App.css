@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;  
+  box-sizing: border-box;
 }
 
 #root {
@@ -16,14 +16,14 @@ body {
   min-height: 100vh;
   color: rgba(255, 255, 255, 0.87);
   background-color: #242424;
-  
+
   /* min-height: 100vh; */
   /* background-color: blue; */
 }
 
 header {
-  background-color: #0e0e0e;
-  height: 64px;
+  background-color: #151515;
+  height: 84px;
   display: flex;
   justify-content: space-between;
   padding: 34px;
@@ -32,7 +32,7 @@ header {
 }
 
 .logoBtn {
-  background-color: #0e0e0e;
+  background-color: #151515;
   color: white;
   border: none;
   cursor: pointer;
@@ -53,13 +53,13 @@ header {
   padding: 8px;
   border-radius: 8px;
   border: none;
-  background-color: #0e0e0e;
+  background-color: #151515;
   color: white;
 }
 
 .headerButtons {
   display: flex;
-  gap: 46px;
+  gap: 26px;
   /* background-color: aqua; */
 }
 

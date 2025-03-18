@@ -3,26 +3,33 @@
   padding: 0;
   box-sizing: border-box;
   /* min-height: 100vh; */
-
 }
- 
+
 .profilePic {
   object-fit: cover;
   border-radius: 12px;
-  width: 164px;
-  height: 200px;
+  width: 284px;
+  height: 280px;
 }
 
-main { 
+main {
   /* display: grid; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   /* min-height: 100vh; */
-  padding: 124px;
+  padding: 364px;
   padding-top: 184px;
   padding-bottom: 224px;
-  /* padding-bottom: 240px; */
   gap: 100px;
+}
+
+h1 {
+  /* border-bottom: 1px white; */
+}
+
+p {
+  font-size: larger;
+  padding: 64px;
 }

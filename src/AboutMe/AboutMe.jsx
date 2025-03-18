@@ -10,10 +10,13 @@ export default function AboutMe() {
             src="public/images/profilePic.png"
             alt=""
           />
-          <p>
-            Mitt navn er Jostein Westrum. Dette er forsøk nr 2 på å lage en
-            portofolie. Denne gangen lages det i React.
-          </p>
+          <div>
+            <h1>Jostein Westrum</h1>
+            <p>
+              Mitt navn er Jostein Westrum. Dette er forsøk nr 2 på å lage en
+              portofolie. Denne gangen lages det i React.
+            </p>
+          </div>
         </main>
       </div>
     </>

@@ -1,62 +1,78 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .allSections {
-    padding: 74px;
-    display: grid;
-    justify-items: center;
-    text-align: center;
-    grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr; */
-    /* border: 1px solid white; */
-    gap: 144px;
-    position: relative;
+  padding: 84px;
+  /* display: grid; */
+  justify-items: center;
+  text-align: center;
+  grid-template-columns: 1fr;
+  /* grid-template-rows: 1fr 1fr; */
+  /* border: 1px solid white; */
+  gap: 144px;
+  position: relative;
 }
 
-.allSections img{
-    object-position: 0px 0px;
-    width: 264px;
-    height: 260px;
-    opacity: 0.8;
-    display: block;
-    border-radius: 10px;
+.projectsButton {
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 24px;
+  cursor: pointer;
+  padding: 8px;
+  border-radius: 8px;
+  border: none;
+  background-color: #242424;
+  color: white;
+  text-decoration: underline;
+}
 
+.allSections img {
+  margin: auto;
+  /* object-position: 0px 0px; */
+  object-fit: cover;
+  width: 264px;
+  height: 260px;
+  opacity: 0.8;
+  display: block;
+  border-radius: 10px;
 }
 
 .section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* overflow: hidden; */
-    /* border-radius: 12px; */
-    /* border: 4px solid rgb(0, 0, 0); */
-    background-color: rgb(24, 24, 24);
-    width: 800px;
-    /* height: 360px; */
+  /* display: none; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* overflow: hidden; */
+  /* border-radius: 12px; */
+  border-bottom: 1px solid rgba(255, 255, 255, 0.141);
+  /* background-color: rgb(24, 24, 24); */
+  width: 800px;
+  /* height: 360px; */
 }
 
 .sectionText {
-    padding: 34px;
+  padding: 34px;
 }
 
 h2 {
-    padding-top: 6px;
-    padding-bottom: 64px;
+  /* display: flex; */
+  padding-top: 6px;
+  padding-bottom: 64px;
 }
 
 @media screen and (min-width: 768px) {
-    body {
-      gap: 100px;
-      grid-template-columns: 1fr 1fr;
-    }
+  body {
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
   }
-  
-  @media screen and (min-width: 1080px) {
-    body {
-      gap: 98px;
-      grid-template-columns: 1fr 1fr 1fr;
-    }
+}
+
+@media screen and (min-width: 1080px) {
+  body {
+    gap: 98px;
+    grid-template-columns: 1fr 1fr 1fr;
   }
+}
