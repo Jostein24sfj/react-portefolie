@@ -3,22 +3,14 @@ import AboutMe from "./AboutMe/AboutMe";
 import Prosjekter from "./Prosjekter/Prosjekter";
 import Contact from "./Contact/Contact";
 import DarkMode from "./DarkMode/DarkMode";
+import Header from "./Header/Header";
 
 export default function App() {
   return (
     <>
+            {/* <DarkMode /> */}
       <div>
-        <header>
-          <div className="logoTheme">
-            <button className="logoBtn">portofolie</button>
-            <DarkMode />
-          </div>
-          <div className="headerButtons">
-            <button className="headerBtn">Om meg</button>
-            <button className="headerBtn">Prosjekter</button>
-            <button className="headerBtn">Kontakt</button>
-          </div>
-        </header>
+          <Header/>
         <main>
           <AboutMe />
           <Prosjekter />
