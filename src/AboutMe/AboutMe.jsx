@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <>
       <section className="aboutMe">
-        <img className="profilePic" src="public/images/profilePic.png" alt="" />
+        <img className="profilePic" src="/images/profilePic.png" alt="" />
         <div>
           <h1>Jostein Westrum</h1>
           <p className="aboutMeText">

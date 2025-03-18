@@ -17,7 +17,7 @@ export default function Prosjekter() {
         {showSections && (
           <>
             <section className="section">
-              <img src="/restaurantmenyen.PNG" alt="" />
+              <img src="/images/restaurantmenyen.PNG" alt="bilde" />
               <div className="sectionText">
                 <h2>Restaurantmenyen</h2>
                 <p>Er en restaurantmeny som viser forskjellige retter.</p>
@@ -25,7 +25,7 @@ export default function Prosjekter() {
             </section>
 
             <section className="section">
-              <img src="/energydrink.PNG" alt="" />
+              <img src="/images/energydrink.PNG" alt="bilde" />
               <div className="sectionText">
                 <h2>Energy Drink Test</h2>
                 <p>En nettside som tester forskjellige energidrikker.</p>
@@ -33,7 +33,7 @@ export default function Prosjekter() {
             </section>
 
             <section className="section">
-              <img src="/rpgBoardgame.PNG" alt="" />
+              <img src="/images/rpgBoardgame.PNG" alt="bilde" />
               <div className="sectionText">
                 <h2>RPG Boardgame</h2>
                 <p>Et spill med én vei til seier.</p>
@@ -41,7 +41,7 @@ export default function Prosjekter() {
             </section>
 
             <section className="section">
-              <img src="/socialLinks.png" alt="" />
+              <img src="/images/socialLinks.png" alt="bilde" />
               <div className="sectionText">
                 <h2>Social links profile</h2>
                 <p>En sosial portefølje for lenker.</p>
@@ -49,7 +49,7 @@ export default function Prosjekter() {
             </section>
 
             <section className="section">
-              <img src="/potionGame.png" alt="" />
+              <img src="/images/potionGame.png" alt="bilde" />
               <div className="sectionText">
                 <h2>Potion Recipe Game</h2>
                 <p>Lag riktig potion i console.</p>
@@ -57,7 +57,7 @@ export default function Prosjekter() {
             </section>
 
             <section className="section">
-              <img src="/tipsyTroll.png" alt="" />
+              <img src="/images/tipsyTroll.png" alt="bilde" />
               <div className="sectionText">
                 <h2>The Tipsy Troll Tavern</h2>
                 <p>En nettside for en fiktiv pub.</p>
