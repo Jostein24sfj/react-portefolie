@@ -5,18 +5,16 @@
 }
 
 .allSections {
-  /* padding: 84px; */
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  flex-wrap: wrap; /* grid-template-rows: 1fr 1fr; */
-  /* border: 1px solid white; */
+  flex-wrap: wrap;
   gap: 22px;
   position: relative;
-}
+} 
 
-.projectsButton {
+.seAlleBtn {
   font-family: "Figtree", sans-serif;
   font-weight: 600;
   font-size: 24px;
@@ -43,13 +41,11 @@
 }
 
 .section {
-  /* display: none; */
-  /* overflow: hidden; */
-  /* border-radius: 12px; */
-  border-bottom: 1px solid rgba(255, 255, 255, 0.141);
-  /* background-color: rgb(24, 24, 24); */
+  border-radius: 12px;
+  padding: 10px;
+  background-color: rgb(24, 24, 24);
   width: 388px;
-  height: 475px;
+  height: 412px;
 }
 
 .sectionText {
@@ -57,14 +53,13 @@
 }
 
 h2 {
-  /* display: flex; */
   text-align: center;
   padding-top: 6px;
-  /* padding-bottom: 64px; */
+  padding-bottom: 44px;
 }
 
 :hover.section img {
-  transform: scale(1.05);
+  transform: scale(1.08);
   transition: 0.1s ease;
 }
 
@@ -72,16 +67,3 @@ h2 {
   transform: scale(1.1);
   transition: 0.1s ease;
 }
-/* @media screen and (min-width: 768px) {
-  body {
-    gap: 100px;
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-}
-
-@media screen and (min-width: 1080px) {
-  body {
-    gap: 98px;
-    grid-template-columns: 1fr 5fr 1fr;
-  }
-} */

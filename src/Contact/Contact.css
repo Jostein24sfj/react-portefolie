@@ -11,6 +11,7 @@
     align-items: center;
     text-align: center;
     padding: 40px 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
   }
   
   h2 {
@@ -18,7 +19,7 @@
     margin-bottom: 16px;
     color: #fff;
   }
-  
+   
   .contactForm {
     display: flex;
     flex-direction: column;

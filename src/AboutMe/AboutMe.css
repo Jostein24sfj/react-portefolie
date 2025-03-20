@@ -4,16 +4,18 @@
   box-sizing: border-box;
   /* min-height: 100vh; */
 }
-
+ 
 .aboutMeContent {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  /* min-height: 100vh; */
+  border-top: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.5);
+  padding: 44px 44px;
 } 
 
 .aboutMeP {
-  padding-left: 764px;
-  padding-right: 764px;
+  padding-left: 164px;
+  padding-right: 164px;
 }

@@ -36,7 +36,7 @@ export default function Prosjekter() {
               </div>
             </section>
 </div>
-      <button className="projectsButton" onClick={toggleSections}>
+      <button className="seAlleBtn" onClick={toggleSections}>
         {showSections ? "Lukk" : "Se Alle"}
       </button>
       <div className="allSections">
