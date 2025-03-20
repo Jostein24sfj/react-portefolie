@@ -8,15 +8,11 @@ export default function Prosjekter() {
     setShowSections(!showSections); // Toggle show/hide
   };
 
-  return (
+  return ( 
     <>
-      <button className="projectsButton" onClick={toggleSections}>
-        {showSections ? "Hide Sections" : "Prosjekter jeg har jobbet med"}
-      </button>
-      <div className="allSections">
-        {showSections && (
-          <>
-            <section className="section">
+  <h2>Prosjekter jeg har jobbet med</h2>
+<div className="allSections">
+<section className="section">
               <img src="/images/restaurantmenyen.PNG" alt="bilde" />
               <div className="sectionText">
                 <h2>Restaurantmenyen</h2>
@@ -39,6 +35,13 @@ export default function Prosjekter() {
                 <p>Et spill med én vei til seier.</p>
               </div>
             </section>
+</div>
+      <button className="projectsButton" onClick={toggleSections}>
+        {showSections ? "Lukk" : "Se Alle"}
+      </button>
+      <div className="allSections">
+        {showSections && (
+          <>
 
             <section className="section">
               <img src="/images/socialLinks.png" alt="bilde" />

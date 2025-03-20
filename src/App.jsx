@@ -11,10 +11,35 @@ export default function App() {
             {/* <DarkMode /> */}
       <div>
           <Header/>
-        <main>
+        <main> 
+        <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <FrontPage/>
+          <br />
+          <br />
           <AboutMe />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <Prosjekter />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
           <Contact />
         </main>
       </div>

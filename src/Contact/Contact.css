@@ -31,7 +31,7 @@
   .contactForm textarea {
     width: 100%;
     padding: 12px;
-    border: 1px solid #ccc;
+    border: 1px solid #494949;
     border-radius: 6px;
     font-size: 16px;
   }
@@ -42,7 +42,7 @@
   }
   
   .contactForm button {
-    background-color: #007bff;
+    background-color: #131313;
     color: white;
     border: none;
     padding: 12px;

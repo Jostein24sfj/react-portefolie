@@ -33,7 +33,7 @@
     font-weight: 600;
     font-size: 14px;
     cursor: pointer;
-    padding: 8px;
+    /* padding: 4px; */
     border-radius: 8px;
     border: none;
     background-color: #15151500;
@@ -42,5 +42,5 @@
   
   .headerButtons {
     display: flex;
-    gap: 26px;
+    gap: 18px;
   }

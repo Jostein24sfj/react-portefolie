@@ -5,12 +5,15 @@ export default function AboutMe () {
     <>
     <div className="aboutMeContent">
       <h2>Om Meg</h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-        Ex nesciunt neque rerum hic iste quas doloremque, 
-        veritatis modi eum voluptate similique
-        reprehenderit quae deleniti dignissimos,
-        reiciendis quod laborum harum assumenda?'
-      </p>
+      <div className="aboutMeP">
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+         Eum dolorum nostrum incidunt quibusdam deserunt deleniti, 
+         impedit exercitationem 
+        aliquid a quae error voluptatibus quis unde, 
+        hic autem eos obcaecati sit tenetur. 
+        </p>
+      </div>
     </div>
       </>
   );
