@@ -4,7 +4,7 @@ import Prosjekter from "./Prosjekter/Prosjekter";
 import Contact from "./Contact/Contact";
 import DarkMode from "./DarkMode/DarkMode";
 import Header from "./Header/Header";
-
+import FrontPage from "./FrontPage/FrontPage";
 export default function App() {
   return (
     <>
@@ -12,6 +12,7 @@ export default function App() {
       <div>
           <Header/>
         <main>
+          <FrontPage/>
           <AboutMe />
           <Prosjekter />
           <Contact />

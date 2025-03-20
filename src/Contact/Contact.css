@@ -2,37 +2,57 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
   }
-
-.contactSection {
+  
+  .contactSection {
     display: flex;
     flex-direction: column;
-    text-align: center;
     align-items: center;
-    gap: 12px;
-}
+    text-align: center;
+    padding: 40px 20px;
+  }
   
-.contactSection input {
-    gap: 12px;
-}
-
-h2 {
+  h2 {
     font-size: 28px;
-    padding: 24px 0;
-}
-
-.inputSections input {
+    margin-bottom: 16px;
+    color: #fff;
+  }
+  
+  .contactForm {
     display: flex;
-    background-color: rgb(170, 170, 170);
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .contactForm input,
+  .contactForm textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
     border-radius: 6px;
-    width: 360px;
-    height: 32px;
-    /* text-align: center; */
-}
-
-.inputMessage {
-    height: 164px;
-    width: 360px;
-    background-color: rgb(170, 170, 170);
+    font-size: 16px;
+  }
+  
+  .contactForm textarea {
+    height: 150px;
+    resize: none;
+  }
+  
+  .contactForm button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
     border-radius: 6px;
-}
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contactForm button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,18 +1,17 @@
 import "./AboutMe.css";
 
-export default function AboutMe() {
+export default function AboutMe () {
   return (
     <>
-      <section className="aboutMe">
-        <img className="profilePic" src="/images/profilePic.png" alt="" />
-        <div>
-          <h1>Jostein Westrum</h1>
-          <p className="aboutMeText">
-            Mitt navn er Jostein Westrum. Dette er forsøk nr 2 på å lage en
-            portefolie. Denne gangen lages det i React.
-          </p>
-        </div>
-      </section>
-    </>
+    <div className="aboutMeContent">
+      <h2>Om Meg</h2>
+      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
+        Ex nesciunt neque rerum hic iste quas doloremque, 
+        veritatis modi eum voluptate similique
+        reprehenderit quae deleniti dignissimos,
+        reiciendis quod laborum harum assumenda?'
+      </p>
+    </div>
+      </>
   );
 }

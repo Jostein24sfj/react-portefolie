@@ -18,7 +18,7 @@
     width: 100%; /* Makes sure it spans the full width */
     z-index: 1000; /* Ensures it stays above other elements */
   } 
-  
+   
   .logoBtn {
     background-color: #15151500;
     color: white;

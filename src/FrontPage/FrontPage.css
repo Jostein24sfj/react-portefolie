@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* min-height: 100vh; */
+  }
+  
+  .profilePic {
+    object-fit: cover;
+    border-radius: 12px;
+    width: 264px;
+    height: 264px;
+    box-shadow: -44px 44px rgba(104, 104, 104, 0.299);
+  }
+  
+  .frontPageContent {
+    /* display: grid; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 60vh;
+    /* padding: 364px; */
+    /* padding-top: 184px;
+    padding-bottom: 224px; */
+    gap: 100px;
+  }
+  
+  .frontPageText {
+    max-width: 420px;
+    color: rgb(134, 134, 134);
+  }
+  
+  h1 {
+    color: rgb(196, 196, 196);
+    font-size: 50px;
+    letter-spacing: 2px; /* border-bottom: 1px white; */
+  }
+  
+  p {
+    font-size: larger;
+    /* padding: 64px; */
+  }
+  
