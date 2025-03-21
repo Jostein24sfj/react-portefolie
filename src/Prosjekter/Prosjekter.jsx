@@ -10,6 +10,7 @@ export default function Prosjekter() {
 
   return ( 
     <>
+    <section id="projects">
   <h2>Prosjekter jeg har jobbet med</h2>
 <div className="allSections">
 <section className="section">
@@ -69,6 +70,8 @@ export default function Prosjekter() {
           </>
         )}
       </div>
+
+    </section>
     </>
   );
 }

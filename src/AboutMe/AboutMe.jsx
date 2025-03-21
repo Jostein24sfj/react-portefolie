@@ -3,6 +3,7 @@ import "./AboutMe.css";
 export default function AboutMe () {
   return (
     <>
+    <section id="aboutMe">
     <div className="aboutMeContent">
       <h2>Om Meg</h2>
       <div className="aboutMeP">
@@ -15,6 +16,7 @@ export default function AboutMe () {
         </p>
       </div>
     </div>
+    </section>
       </>
   );
 }

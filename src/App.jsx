@@ -10,7 +10,8 @@ export default function App() {
     <>
             {/* <DarkMode /> */}
       <div>
-          <Header/>
+      <div id="top"></div> {/* Invisible div to mark the top of the page */}
+          <Header />
         <main> 
         <br />
           <br />

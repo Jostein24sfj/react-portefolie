@@ -38,6 +38,8 @@ export default function Contact() {
   };
 
   return (
+    <section id="contact">
+
     <div className="contactSection">
       <h2>Kontakt Meg</h2>
       <form onSubmit={handleSubmit} className="contactForm">
@@ -67,5 +69,6 @@ export default function Contact() {
         <button type="submit">Send</button>
       </form>
     </div>
+    </section>
   );
 }

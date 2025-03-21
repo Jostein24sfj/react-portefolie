@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
 
+  section {
+    padding-top: 100px; /* Adjust based on header height */
+  }
+
   header {
     background-color: #151515fb;
     height: 84px;
