@@ -35,9 +35,8 @@
 }
 
 .allSections img {
-  margin: auto;
   object-fit: cover;
-  width: 360px;
+  width: 100%;
   height: 240px;
   /* opacity: 0.8; */
   display: block;
@@ -49,8 +48,15 @@
   padding: 10px;
   background-color: var(--primary);
   border: 2px solid var(--tertiary);
-  max-width: 388px;
+  width: 388px;
   height: 412px;
+}
+
+@media screen and (max-width: 768px) {
+  .section {
+    padding: 6px;
+    width: 320px;
+  }
 }
 
 h2 {
