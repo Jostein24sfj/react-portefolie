@@ -49,7 +49,7 @@
   padding: 10px;
   background-color: var(--primary);
   border: 2px solid var(--tertiary);
-  width: 388px;
+  max-width: 388px;
   height: 412px;
 }
 

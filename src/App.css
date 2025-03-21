@@ -34,7 +34,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 64px;
-  padding: 64px 160px;
+  padding: 64px 260px;
 }
 
 /* .logoTheme {
@@ -54,6 +54,18 @@ main {
 }
 
 @media screen and (max-width: 768px) {
+  /* body {
+
+    gap: 100px;
+    grid-template-columns: 1fr 1fr;
+  } */
+  main {
+    gap: 28px;
+    padding: 28px 48px;
+  }
+}
+
+@media screen and (max-width: 425px) {
   /* body {
 
     gap: 100px;
