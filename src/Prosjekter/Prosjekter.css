@@ -12,7 +12,7 @@
   flex-wrap: wrap;
   gap: 22px;
   position: relative;
-} 
+}
 
 .seAlleBtn {
   font-family: "Figtree", sans-serif;
@@ -46,10 +46,6 @@
   background-color: rgb(24, 24, 24);
   width: 388px;
   height: 412px;
-}
-
-.sectionText {
-  /* padding: 34px; */
 }
 
 h2 {

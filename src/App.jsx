@@ -8,37 +8,24 @@ import FrontPage from "./FrontPage/FrontPage";
 export default function App() {
   return (
     <>
-            {/* <DarkMode /> */}
+      {/* <DarkMode /> */}
       <div>
-      <div id="top"></div> {/* Invisible div to mark the top of the page */}
-          <Header />
-        <main> 
-        <br />
+        <div id="top"></div> {/* Invisible div to mark the top of the page */}
+        <Header />
+        <main>
           <br />
           <br />
           <br />
           <br />
-          <FrontPage/>
+          <br />
+          <FrontPage />
           <br />
           <br />
           <AboutMe />
           <br />
           <br />
           <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
           <Prosjekter />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
-          <br />
           <br />
           <br />
           <Contact />
