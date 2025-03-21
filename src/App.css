@@ -4,6 +4,19 @@
   box-sizing: border-box;
 }
 
+:root {
+  --primary: #242424;
+  --secondary: rgb(24, 24, 24);
+  --tertiary: #7279b7;
+}
+
+/* Dark Mode */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary: #242424; /* Dark mode primary color */
+  }
+}
+
 #root {
   max-width: auto;
   /* margin: 0 auto; */
@@ -14,7 +27,7 @@
 body {
   font-family: "Figtree", sans-serif;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--primary);
 }
 
 main {
@@ -24,14 +37,10 @@ main {
   padding: 64px 160px;
 }
 
-
-
 /* .logoTheme {
   display: flex;
   gap: 12px;
 } */
-
-
 
 @media screen and (max-width: 1080px) {
   /* body {
@@ -57,7 +66,7 @@ main {
 }
 
 footer {
-  background-color:#000000 ;
+  background-color: #000000;
   display: flex;
   justify-content: center;
   align-items: center;

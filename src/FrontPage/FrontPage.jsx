@@ -8,8 +8,8 @@ export default function FrontPage() {
         <div>
           <h1>Jostein Westrum</h1>
           <p className="frontPageText">
-            Mitt navn er Jostein Westrum. Dette er forsøk nr 2 på å lage en
-            portefolie. Denne gangen lages det i React.
+            Mitt navn er Jostein. Dette er forsøk nr 2 på å lage en portefolie.
+            Denne gangen lages det i React. Jeg har lært mer for å si det sånn:)
           </p>
         </div>
       </section>

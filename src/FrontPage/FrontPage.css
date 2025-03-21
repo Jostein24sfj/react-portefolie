@@ -9,7 +9,7 @@
   border-radius: 12px;
   width: 264px;
   height: 264px;
-  box-shadow: -44px 44px rgba(104, 104, 104, 0.299);
+  box-shadow: -44px 44px #7279b7;
 }
 
 .frontPageContent {
@@ -24,13 +24,14 @@
 
 .frontPageText {
   max-width: 420px;
-  color: rgb(134, 134, 134);
+  color: rgb(224, 224, 234);
 }
 
 h1 {
-  color: rgb(196, 196, 196);
+  color: rgb(138, 140, 189);
   font-size: 50px;
   letter-spacing: 2px;
+  padding-bottom: 12px;
 }
 
 p {

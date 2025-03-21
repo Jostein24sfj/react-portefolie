@@ -23,12 +23,47 @@ header {
   z-index: 1000; /* Ensures it stays above other elements */
 }
 
+.logoTheme {
+  position: relative; /* Makes this a reference for absolute positioning */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.triangleDown {
+  position: absolute; /* Puts it behind the button */
+  top: 60%;
+  left: 92%;
+  transform: translate(-50%, -50%); /* Centers it */
+
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #7279b7;
+}
+
+.triangleUp {
+  position: absolute;
+  top: -40%;
+  left: 66%;
+  transform: translate(-50%, 10px); /* Moves it slightly up */
+
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 50px solid #2f2f2f;
+}
+
 .logoBtn {
-  background-color: #15151500;
-  color: white;
+  position: relative; /* Ensures it stays on top */
+  background: none;
   border: none;
+  font-size: 30px;
+  color: white;
   cursor: pointer;
-  font-size: 28px;
+  z-index: 2; /* Higher than triangle so it stays visible */
 }
 
 .headerBtn {
@@ -38,7 +73,8 @@ header {
   cursor: pointer;
   border-radius: 8px;
   border: none;
-  background-color: #15151500;
+  background-color: #7279b7;
+  padding: 6px;
   color: white;
 }
 

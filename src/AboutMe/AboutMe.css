@@ -5,6 +5,7 @@
 }
 
 .aboutMeContent {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -12,11 +13,12 @@
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
-  padding: 44px 44px;
+  padding: 14px 14px;
   min-height: 100vh;
+  overflow: hidden; /* Ensures triangles stay inside */
 }
 
 .aboutMeP {
-  padding-left: 164px;
-  padding-right: 164px;
+  padding-left: 112px;
+  padding-right: 112px;
 }

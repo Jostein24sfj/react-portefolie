@@ -19,13 +19,19 @@
   font-weight: 600;
   font-size: 24px;
   cursor: pointer;
-  padding: 8px;
+  padding: 10px;
   border-radius: 8px;
   border: none;
-  background-color: #242424;
+  background-color: var(--tertiary);
   color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   margin-inline: auto;
-  width: 100%;
+}
+
+.seAlleBtnPosition {
+  padding-top: 22px;
 }
 
 .allSections img {
@@ -33,7 +39,7 @@
   object-fit: cover;
   width: 360px;
   height: 240px;
-  opacity: 0.8;
+  /* opacity: 0.8; */
   display: block;
   border-radius: 10px;
 }
@@ -41,7 +47,8 @@
 .section {
   border-radius: 12px;
   padding: 10px;
-  background-color: rgb(24, 24, 24);
+  background-color: var(--primary);
+  border: 2px solid var(--tertiary);
   width: 388px;
   height: 412px;
 }
@@ -53,11 +60,10 @@ h2 {
 }
 
 :hover.section img {
-  transform: scale(1.08);
+  transform: scale(1.07);
   transition: 0.1s ease;
 }
 
-:hover.projectsButton {
-  transform: scale(1.1);
-  transition: 0.1s ease;
+.seAlleBtnPosition button:active {
+  transform: scale(0.96);
 }

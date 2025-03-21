@@ -11,6 +11,8 @@ export default function Header() {
   return (
     <header>
       <div className="logoTheme">
+        <div className="triangleDown"></div> {/* Triangle background */}
+        <div className="triangleUp"></div> {/* Top triangle */}
         <button className="logoBtn" onClick={() => scrollToSection("top")}>
           portefolie
         </button>
