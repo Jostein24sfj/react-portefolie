@@ -19,10 +19,10 @@ export default function Contact() {
 
     emailjs
       .send(
-        "service_t8e60ai", // Bytt ut med ditt Service ID
-        "template_jp04o2q", // Bytt ut med ditt Template ID
+        "service_t8e60ai", //  Service ID
+        "template_jp04o2q", //  Template ID
         formData,
-        "RDIph1ylBIVWC7Nxs" // Bytt ut med din Public Key
+        "RDIph1ylBIVWC7Nxs" //  Public Key
       )
       .then(
         (response) => {
@@ -39,36 +39,35 @@ export default function Contact() {
 
   return (
     <section id="contact">
-
-    <div className="contactSection">
-      <h2>Kontakt Meg</h2>
-      <form onSubmit={handleSubmit} className="contactForm">
-        <input
-          type="text"
-          name="name"
-          placeholder="Navn"
-          value={formData.name}
-          onChange={handleChange}
-          required
-        />
-        <input
-          type="email"
-          name="email"
-          placeholder="E-post"
-          value={formData.email}
-          onChange={handleChange}
-          required
-        />
-        <textarea
-          name="message"
-          placeholder="Din melding..."
-          value={formData.message}
-          onChange={handleChange}
-          required
-        />
-        <button type="submit">Send</button>
-      </form>
-    </div>
+      <div className="contactSection">
+        <h2>Kontakt Meg</h2>
+        <form onSubmit={handleSubmit} className="contactForm">
+          <input
+            type="text"
+            name="name"
+            placeholder="Navn"
+            value={formData.name}
+            onChange={handleChange}
+            required
+          />
+          <input
+            type="email"
+            name="email"
+            placeholder="E-post"
+            value={formData.email}
+            onChange={handleChange}
+            required
+          />
+          <textarea
+            name="message"
+            placeholder="Din melding..."
+            value={formData.message}
+            onChange={handleChange}
+            required
+          />
+          <button type="submit">Send</button>
+        </form>
+      </div>
     </section>
   );
 }

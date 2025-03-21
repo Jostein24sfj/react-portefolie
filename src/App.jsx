@@ -23,8 +23,6 @@ export default function App() {
           <br />
           <AboutMe />
           <br />
-          <br />
-          <br />
           <Prosjekter />
           <br />
           <br />

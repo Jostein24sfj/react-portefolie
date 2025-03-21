@@ -1,5 +1,4 @@
-import { useState } from "react";
-import "./Header.css"
+import "./Header.css";
 
 export default function Header() {
   const scrollToSection = (id) => {
@@ -17,9 +16,24 @@ export default function Header() {
         </button>
       </div>
       <div className="headerButtons">
-        <button className="headerBtn" onClick={() => scrollToSection("aboutMe")}>Om meg</button>
-        <button className="headerBtn" onClick={() => scrollToSection("projects")}>Prosjekter</button>
-        <button className="headerBtn" onClick={() => scrollToSection("contact")}>Kontakt</button>
+        <button
+          className="headerBtn"
+          onClick={() => scrollToSection("aboutMe")}
+        >
+          Om meg
+        </button>
+        <button
+          className="headerBtn"
+          onClick={() => scrollToSection("projects")}
+        >
+          Prosjekter
+        </button>
+        <button
+          className="headerBtn"
+          onClick={() => scrollToSection("contact")}
+        >
+          Kontakt
+        </button>
       </div>
     </header>
   );
