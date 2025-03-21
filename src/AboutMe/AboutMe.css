@@ -2,18 +2,19 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* min-height: 100vh; */
 }
- 
+
 .aboutMeContent {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
   text-align: center;
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-bottom: 1px solid rgba(255, 255, 255, 0.5);
   padding: 44px 44px;
-} 
+  min-height: 100vh;
+}
 
 .aboutMeP {
   padding-left: 164px;

@@ -24,14 +24,12 @@
   border: none;
   background-color: #242424;
   color: white;
-  /* text-decoration: underline; */
   margin-inline: auto;
   width: 100%;
 }
 
 .allSections img {
   margin: auto;
-  /* object-position: 0px 0px; */
   object-fit: cover;
   width: 360px;
   height: 240px;

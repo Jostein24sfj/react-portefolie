@@ -1,50 +1,48 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
-  section {
-    padding-top: 100px; /* Adjust based on header height */
-  }
+section {
+  padding-top: 100px; /* Adjust based on header height */
+}
 
-  header {
-    background-color: #151515fb;
-    height: 84px;
-    display: flex;
-    justify-content: space-between;
-    padding: 34px;
-    align-items: center;
-    font-size: 24px;
-    position: fixed; /* Fixes the header in place */
-    top: 0; /* Keeps it at the top of the page */
-    left: 0;
-    width: 100%; /* Makes sure it spans the full width */
-    z-index: 1000; /* Ensures it stays above other elements */
-  } 
-   
-  .logoBtn {
-    background-color: #15151500;
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-size: 28px;
-    /* text-transform: uppercase; */
-  }
+header {
+  background-color: #151515fb;
+  height: 84px;
+  display: flex;
+  justify-content: space-between;
+  padding: 34px;
+  align-items: center;
+  font-size: 24px;
+  position: fixed; /* Fixes the header in place */
+  top: 0; /* Keeps it at the top of the page */
+  left: 0;
+  width: 100%; /* Makes sure it spans the full width */
+  z-index: 1000; /* Ensures it stays above other elements */
+}
 
-  .headerBtn {
-    font-family: "Figtree", sans-serif;
-    font-weight: 600;
-    font-size: 14px;
-    cursor: pointer;
-    /* padding: 4px; */
-    border-radius: 8px;
-    border: none;
-    background-color: #15151500;
-    color: white;
-  }
-  
-  .headerButtons {
-    display: flex;
-    gap: 18px;
-  }
+.logoBtn {
+  background-color: #15151500;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 28px;
+}
+
+.headerBtn {
+  font-family: "Figtree", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+  background-color: #15151500;
+  color: white;
+}
+
+.headerButtons {
+  display: flex;
+  gap: 18px;
+}
